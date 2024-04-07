@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 function DataBinding() {
   const  [data, setData] = useState({
-    name: CHANDAN,
+    name: "CHANDAN",
     age: 19     
     
   })
