@@ -1,9 +1,8 @@
 import React, {useState} from "react";
 function DataBinding() {
   const  [data, setData] = useState({
-    name: "CHANDAN",
-    age: 19 ,
-    Pno:55562616
+    name: CHANDAN,
+    age: 19     
     
   })
   const handleChange=(event)=>{
