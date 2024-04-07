@@ -9,8 +9,8 @@ function DataBinding() {
   const handleChange=(event)=>{
     let value =event.target.value;
     setData({
-      ...data.name:value,
-      ...data.Pno:value
+      ...data,name:value,
+      ...data,Pno:value
     });
   }
   return (
@@ -23,7 +23,7 @@ function DataBinding() {
         value={data.name}
         onChange={handleChange}/>
         <input type='text'
-        value={data.Pno}
+        value={data.age}
         onChange={handleChange}/>
         
       </div>
